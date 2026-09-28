@@ -1,0 +1,29 @@
+{
+  "name": "@theworker02/boltbyte",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Bolt config/byte key checks for twelve-factor services.",
+  "bin": {
+    "boltbyte": "src/cli.js"
+  },
+  "main": "./src/index.js",
+  "scripts": {
+    "test": "node --test"
+  },
+  "license": "MIT",
+  "engines": {
+    "node": ">=18"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/theworker02/boltbyte.git"
+  },
+  "homepage": "https://theworker02.github.io/boltbyte/",
+  "keywords": [
+    "bolt",
+    "byte",
+    "config",
+    "cli",
+    "toolkit"
+  ]
+}
